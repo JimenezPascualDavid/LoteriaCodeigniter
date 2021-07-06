@@ -23,9 +23,8 @@ defined('BASEPATH') OR exit('No direct script access allowed');
 | a PHP script and you can easily do that on your own.
 |
 */
-// $config['base_url'] = 'http://localhost/PHP-DAW/1_Trimestre/Loteria';
-//$config['base_url'] = 'http://freedb.tech:3306/freedbtech_loteriadbDavid';
-$url = parse_url(getenv("CLEARDB_DATABASE_URL"));
+$config['base_url'] = 'http://localhost/PHP-DAW/1_Trimestre/Loteria';
+
 /*
 |--------------------------------------------------------------------------
 | Index File
